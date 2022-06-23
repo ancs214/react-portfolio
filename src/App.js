@@ -1,20 +1,11 @@
-import Header from './components/Header';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
-      <header>
-        <Header />
-      </header>
-
-      <main>
-       
-      </main>
-
-      <footer>
-
-      </footer>
-
+      <Nav />
+      <Footer />
     </div>
   );
 }
