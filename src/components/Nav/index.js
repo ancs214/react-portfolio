@@ -2,30 +2,32 @@ import React from 'react';
 
 
 function Nav() {
+
     return (
-        <section class="header">
-                <nav class="navbar" role="navigation" aria-label="main navigation">
-                    <div class="navbar-menu navbar is-warning">
-                    <h1 class="title is-1">
-                        Ashley-Noel Swarn
-                    </h1>
-                        <div class="navbar-end title">
-                            <a class="navbar-item">
-                                About Me      
-                            </a>
-                            <a class="navbar-item">
-                                Portfolio
-                            </a>
-                            <a class="navbar-item">
-                                Contact
-                            </a>
-                            <a class="navbar-item">
-                                Resume
-                            </a>
-                        </div>
-                    </div>
-                </nav>
-        </section>
+        <nav>
+            <ul className="flex-row">
+                <li className="mx-2">
+                    <a href="#about">
+                        About me
+                    </a>
+                </li>
+                <li className="mx-2">
+                    <a href="#Portfolio">
+                        Portfolio
+                    </a>
+                </li>
+                <li className="mx-2">
+                    <a href="#Contact">
+                        Contact
+                    </a>
+                </li>
+                <li className="mx-2">
+                    <a href="#Resume">
+                        Resume
+                    </a>
+                </li>
+            </ul>
+        </nav>
     )
 }
 

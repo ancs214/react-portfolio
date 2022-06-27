@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer class="footer">
-            <div class="content has-text-centered">
+        <footer>
+            <div>
                 <p>
                     Created with ❤️ by Ashley-Noel Swarn
                 </p>
