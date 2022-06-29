@@ -293,6 +293,8 @@ a {
   height: 100px;
   margin-right: 50px;
   margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .active {
