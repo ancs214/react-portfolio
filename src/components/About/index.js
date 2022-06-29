@@ -14,7 +14,6 @@ function About() {
             </p>
             </div>
             <div>
-                {/* insert running text of skills here: HTML CSS JS etc... */}
             <img src={profileImage} className="my-2" style={{ width: "25%" }} alt="picture of myself" />
             </div>
         </section>

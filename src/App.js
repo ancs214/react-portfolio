@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
-import Project from './components/Projects';
+import Projects from './components/Projects';
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
 
       <Header />
       <About />
-      <Project />
+      <Projects />
       <Footer />
 
     </Router>
