@@ -137,7 +137,6 @@ form {
 }
 
 label {
-  text-align: right;
   display: inline-block;
   width: 150px;
 }
@@ -185,6 +184,11 @@ nav  li {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.contactbox {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .grid {
@@ -262,32 +266,6 @@ nav  li {
   text-align: center;
 }
 
-.modalBackdrop {
-	background: rgba(0, 0, 0, .65);
-	bottom: 0;
-	left: 0;
-	overflow: auto;
-	position: fixed;
-	right: 0;
-	top: 0;
-	z-index: 1;
-}
-
-.modalContainer {
-	background: var(--darker);
-	border-radius: 5px;
-	max-width: 100%;
-	margin: 50px auto;
-	padding: 15px;
-	width: 960px;
-}
-
-.modalTitle {
-	font-size: 18px;
-	font-weight: 600;
-	margin-bottom: 25px;
-}
-
 button {
 	background: var(--primary);
 	border: 0;
@@ -308,6 +286,13 @@ a {
 	margin-left: -2px;
 	margin-right: -2px;
 	
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 
 .active {

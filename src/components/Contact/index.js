@@ -47,21 +47,21 @@ function ContactForm() {
 
     return (
         <section>
-            <div>
+            <div className='contactbox'>
                 <h1 className='container'>Contact Me</h1>
                 <form id="contact" className='container' onSubmit={handleSubmit}>
                     <div>
                         {/* htmlFor is same as 'for' attribute in JS
                         onBlur - fires event once user has changed focus from the input field */}
-                        <label htmlFor="name">Name:</label>
+                    <label htmlFor="name">Name:</label><br />
                         <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
                     </div>
                     <div>
-                        <label htmlFor="email">Email address:</label>
+                        <label htmlFor="email">Email address:</label><br/>
                         <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
                     </div>
                     <div>
-                        <label htmlFor="message">Message:</label>
+                    <label htmlFor="message">Message:</label><br />
                         <textarea defaultValue={message} name="message" onBlur={handleChange} rows="5" />
                     </div>
                     {errorMessage && (
