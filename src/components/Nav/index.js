@@ -5,7 +5,7 @@ function Nav() {
 
     return (
         <nav>
-            <ul className="flex-row">
+            <ul className="flex-row flex-end">
                 <li className="mx-2">
                     <a href="#about">
                         About me

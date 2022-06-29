@@ -5,12 +5,12 @@ import Nav from '../Nav';
 
 function Header() {
     return (
-        <header flex-row>
-            <h2>
+        <header>
+            <h1 className='my-5 mx-5'>
                 <a href='/'>
                      Ashley-Noel Swarn
                 </a>
-            </h2>
+            </h1>
             
             <Nav />
 

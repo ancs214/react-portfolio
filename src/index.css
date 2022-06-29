@@ -36,7 +36,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One';
 
 }
 
@@ -46,14 +46,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', cursive, sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
 }
 
 h1 {
-  font-size: 2.25rem;
+  font-size: 2.75rem;
 }
 
 h2 {
@@ -186,6 +186,10 @@ textarea {
   justify-content: flex-end;
 }
 
+.flex-start {
+  justify-content: flex-start;
+}
+
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
@@ -211,6 +215,7 @@ textarea {
   margin-bottom: var(--spacing-five);
 }
 
+
 .px-1 {
   padding-right: var(--spacing-one);
   padding-left: var(--spacing-one);
@@ -232,13 +237,13 @@ textarea {
 }
 
 .card {
-  width: 25%;
+  width: 100%;
   text-align: center;
 }
 
 .img-thumbnail {
-  width: auto;
-  height: 300px;
+  width: 50%;
+  height: auto;
   margin-bottom: 50px;
   cursor: pointer;
 }
