@@ -7,6 +7,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
 import ContactForm from './components/Contact';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -17,17 +18,14 @@ function App() {
     <Router>
 
       <Header
-          contactSelected={contactSelected}
-          setContactSelected={setContactSelected}
-          ></Header>
+        contactSelected={contactSelected}
+        setContactSelected={setContactSelected}
+      ></Header>
       <main>
-       
-            <About />
-            <Projects />
-    
-     
-          <ContactForm />
-
+        <About />
+        <Projects />
+        <ContactForm />
+        <Resume />
       </main>
       <Footer />
 

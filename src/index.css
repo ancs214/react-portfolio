@@ -121,7 +121,10 @@ button[disabled] {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  margin-bottom: 5%;
+  margin-top: 5%
+
 }
 
 span[role="img"] {
@@ -182,6 +185,13 @@ nav  li {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2em;
+
 }
 
 .flex-row {
@@ -250,14 +260,6 @@ nav  li {
 .card {
   width: 100%;
   text-align: center;
-}
-
-
-.img-thumbnail {
-  width: 50%;
-  height: auto;
-  margin-bottom: 50px;
-  cursor: pointer;
 }
 
 .modalBackdrop {

@@ -14,7 +14,7 @@ function About() {
             </p>
             </div>
             <div>
-            <img src={profileImage} className="my-2" style={{ width: "25%" }} alt="picture of myself" />
+            <img src={profileImage}  style={{ width: "30%" }} alt="myself" />
             </div>
         </section>
     );
