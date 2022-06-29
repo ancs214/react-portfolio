@@ -16,19 +16,31 @@ function App() {
 
   return (
     <Router>
-
       <Header
         contactSelected={contactSelected}
         setContactSelected={setContactSelected}
       ></Header>
       <main>
-        <About />
-        <Projects />
-        <ContactForm />
-        <Resume />
+        <Routes>
+          <Route 
+            path='/'
+            element={<About />}
+          />
+          <Route 
+            path='/projects'
+            element={ <Projects />}
+          />
+          <Route 
+            path='/contact'
+            element={<ContactForm />}
+          />
+          <Route 
+            path='/resume'
+            element={<Resume />}
+          />
+        </Routes>
       </main>
       <Footer />
-
     </Router>
   );
 }

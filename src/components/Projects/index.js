@@ -1,9 +1,10 @@
 import React from 'react';
 
+
 function Projects() {
     return (
         <section>
-            <h1 className='h2 container' id='projects'>Projects</h1>
+            <h1 className='h2 container'>Projects</h1>
             <div className='grid'>
                 <div>
                     <img
