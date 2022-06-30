@@ -11,15 +11,9 @@ import Resume from './components/Resume';
 
 
 function App() {
-  //set default value of state to 'false' to prevent contact form from initially showing
-  const [contactSelected, setContactSelected] = useState(false);
-
   return (
     <Router>
-      <Header
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
-      ></Header>
+      <Header />
       <main>
         <Routes>
           <Route 

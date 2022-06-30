@@ -270,5 +270,6 @@ li {
 }
 
 .active {
-  color: var(--tertiary);
+  background-color: var(--tertiary);
+  color: var(--dark);
 }
