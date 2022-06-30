@@ -6,13 +6,11 @@ import { Link } from 'react-router-dom';
 
 function Header() {
     return (
-        <header>
+        <header className='flex space-between align-center my-5 mx-2 px-2'>
             <h1>
                 <Link to='/'>Ashley-Noel Swarn</Link>
             </h1>
-            <div className='h2'>
-                <Nav />
-            </div>
+            <Nav />
         </header>
     )
 }
@@ -20,4 +18,3 @@ function Header() {
 export default Header;
 
 
-    

@@ -151,6 +151,7 @@ textarea {
 li {
   list-style: none;
   font-size: 1.75rem;
+  display: inline-block;
 }
 
 .container {
@@ -173,13 +174,32 @@ li {
 
 }
 
-.flex-row {
+.align-center {
+  align-items: center;
+}
+
+.flex {
   display: flex;
+}
+
+.flex-row {
+ 
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
 }
 
 .space-between {
   justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .flex-end {
@@ -214,7 +234,6 @@ li {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
 }
-
 
 .px-1 {
   padding-right: var(--spacing-one);

@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 function Nav() {
 
     return (
-      
-            <ul className="flex-row flex-end">
+        <div>
+            <ul>
                 <li className="mx-2">
                     <Link to='/'> About Me </Link>
                 </li>
@@ -19,7 +19,7 @@ function Nav() {
                     <Link to='/resume'>Resume</Link>
                 </li>
             </ul>
-   
+        </div>
     )
 }
 
