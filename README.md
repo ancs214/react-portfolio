@@ -1,3 +1,4 @@
+![reactPortfolioScreenShot](https://user-images.githubusercontent.com/90393796/177222026-0a3017ce-f960-431e-8bbd-a23b9196ee68.png)
 # Ashley-Noel Swarn Portfolio 
   
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
