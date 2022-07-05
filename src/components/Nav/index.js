@@ -8,7 +8,7 @@ function Nav() {
             <ul>
                 <li className="mx-2">
                     <NavLink
-                        to='/react-portfolio'
+                        to='/react-portfolio/'
                         className={({ isActive }) =>
                             isActive ? 'active' : undefined
                         }
