@@ -8,22 +8,43 @@ function Nav() {
             <ul>
                 <li className="mx-2">
                     <NavLink
-                        to='/'
+                        to='/react-portfolio'
                         className={({ isActive }) =>
-                            isActive ? 'active' : undefined 
-                        }       
+                            isActive ? 'active' : undefined
+                        }
                     >
                         About Me
                     </NavLink>
                 </li>
                 <li className="mx-2">
-                    <NavLink to='/projects'>Portfolio</NavLink>
+                    <NavLink
+                        to='/projects'
+                        className={({ isActive }) =>
+                            isActive ? 'active' : undefined
+                        }
+                    >
+                        Portfolio
+                    </NavLink>
                 </li>
                 <li className="mx-2">
-                    <NavLink to='/contact'>Contact Me</NavLink>
+                    <NavLink
+                        to='/contact'
+                        className={({ isActive }) =>
+                            isActive ? 'active' : undefined
+                        }
+                    >
+                        Contact Me
+                    </NavLink>
                 </li>
                 <li className="mx-2">
-                    <NavLink to='/resume'>Resume</NavLink>
+                    <NavLink
+                        to='/resume'
+                        className={({ isActive }) =>
+                            isActive ? 'active' : undefined
+                        }
+                    >
+                        Resume
+                    </NavLink>
                 </li>
             </ul>
         </div>

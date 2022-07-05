@@ -17,7 +17,7 @@ function App() {
       <main>
         <Routes>
           <Route 
-            path='/'
+            path='/react-portfolio'
             element={<About />}
           />
           <Route 
