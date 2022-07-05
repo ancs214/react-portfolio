@@ -14,7 +14,7 @@
   - [Questions](#Questions)
 
   ## Description: 
-  Portfolio made with React: https://ancs214.github.io/react-portfolio/
+  Portfolio made with React: https://ancs214.github.io/react-portfolio
 
   ## License: 
   'This project is licensed under MIT: https://opensource.org/licenses/MIT
