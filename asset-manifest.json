@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.fc05f9b2.css",
-    "main.js": "/react-portfolio/static/js/main.d8b3a8e9.js",
+    "main.js": "/react-portfolio/static/js/main.5029a993.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/runbuddy.png": "/react-portfolio/static/media/runbuddy.f8501dbaf3c5d25ffe9c.png",
     "static/media/run_chug.png": "/react-portfolio/static/media/run_chug.69113e1902356b9843cd.png",
     "static/media/profileImage.jpeg": "/react-portfolio/static/media/profileImage.68c67679f9e1f56d9200.jpeg",
     "static/media/i++.png": "/react-portfolio/static/media/i++.f24079e28e7a204aba5c.png",
     "static/media/taskmaster.png": "/react-portfolio/static/media/taskmaster.b3ffdda07eab05531293.png",
-    "static/media/ASwarnResume.docx": "/react-portfolio/static/media/ASwarnResume.079606868624eb3e5040.docx",
+    "static/media/ASwarnResume.docx": "/react-portfolio/static/media/ASwarnResume.fdb14f2f32354a36570e.docx",
     "static/media/Resume.png": "/react-portfolio/static/media/Resume.119c7f40b172c949638c.png",
     "index.html": "/react-portfolio/index.html",
     "main.fc05f9b2.css.map": "/react-portfolio/static/css/main.fc05f9b2.css.map",
-    "main.d8b3a8e9.js.map": "/react-portfolio/static/js/main.d8b3a8e9.js.map",
+    "main.5029a993.js.map": "/react-portfolio/static/js/main.5029a993.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc05f9b2.css",
-    "static/js/main.d8b3a8e9.js"
+    "static/js/main.5029a993.js"
   ]
 }
